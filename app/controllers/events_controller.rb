@@ -8,4 +8,11 @@ class EventsController < ApplicationController
 
   end
 
+  def team
+
+  end
+
+  def intro
+
+  end
 end
