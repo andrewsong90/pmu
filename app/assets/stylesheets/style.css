@@ -167,23 +167,23 @@ span.validationError{
 
 .pmu{
     display: inline-block;
-    width:525px;
-    height: 580px;
-    background: url(/assets/construction.jpg) no-repeat;
+    width:580px;
+    height:300px;
+    background: url(/assets/beta.jpg) no-repeat;
 
 }
 
 .pmu_container{
     position: relative;
-    width:525px;
-    height: 580px;
+    width:580px;
+    height:300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .team{
     display: inline-block;
-    width:910px;
+    width:720px;
     height: 650px;
     text-align: center;
     background: url(/assets/FJteam.jpg) no-repeat;
@@ -191,7 +191,7 @@ span.validationError{
 
 .team_container{
     position: relative;
-    width:910px;
+    width:720px;
     height: 650px;
     margin-left: auto;
     margin-right: auto;
@@ -202,6 +202,12 @@ span.validationError{
     width:330px;
     height: 260px;
     background: url(/assets/csv.png) no-repeat;
+}
+
+.email_wrapper{
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pickmeup{
@@ -231,6 +237,11 @@ span.validationError{
 .dropdown-menu a {
     margin: 10px;
     padding: 10px 0px 10px 0px;
+}
+
+.page-header {
+    font-family: 'BebasNeueRegular';
+    text-align: center;
 }
 
 .thumbnail {
@@ -356,62 +367,3 @@ select{
 .font_walkway{
     font-family: 'WalkwayBlackRegular';
 }
-
-.page-header {
-    font-family: 'BebasNeueRegular';
-    text-align: center;
-}
-
-.margin-left{
-    margin-left: 30px;
-}
-
-.gmaps .download {
-    float: right; }
-.gmaps #gmaps-canvas1, #gmaps-canvas2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    height: 400px;
-    width: 540px;
-    -moz-box-shadow: 0px 1px 15px #888;
-    -webkit-box-shadow: 0px 1px 15px #888;
-    box-shadow: 0px 1px 15px #888;
-    -moz-border-radius: 3px; }
-
-.gmaps #gmaps-canvas1 img {
-    max-width: none;
-}
-.gmaps #gmaps-canvas2 img {
-    max-width: none;
-}
-
-.gmaps #results {
-    color: #555;
-    padding-top: 10px; }
-.gmaps .input-road-radius input {
-    width: 2em;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 1px solid #efefef;
-    font-size: 1em;
-    color: #555;
-    font-weight: bold;
-    vertical-align: middle;
-    text-align: center; }
-.gmaps .input-gmaps-autocomplete {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #ccc; }
-.gmaps .input-gmaps-autocomplete input {
-    width: 500px; }
-.gmaps .input-gmaps-autocomplete #gmaps-output-latitude, .gmaps .input-gmaps-autocomplete #input #gmaps-output-longitude {
-    color: green; }
-

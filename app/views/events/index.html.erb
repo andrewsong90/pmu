@@ -6,14 +6,28 @@
     <div class="span1"></div>
     <div class='span8 well'>
 
-      <h1><div class="page-header">Currently Under Construction!!</div></h1>
+
+
+      <p style="text-align: center; font-size: 17px;">
+        Beta test is coming! Please leave your email address so we can get back to you once the beta starts!
+      </p>
+      <div class="email_wrapper">
+        <%= form_tag :url =>url_for(:controller => 'users',:action=>'create') do |f| %>
+            <p class="label label-info">e-mail</p>
+            <%= text_field_tag(:email) %>
+            <%= submit_tag("Submit") %>
+        <% end %>
+      </div>
+
+
+      <h1><div class="page-header">Beta test Starting Soon!</div></h1>
       <br>
 
       <div class="pmu_container"><div class="pmu"></div></div>
       <br>
       <div class="margin-left">
         <p class="tab content">
-          PickMeUp is a service that helps medium and large event organizers to reduce traffic
+          <strong>PickMeUp</strong> is a service, created by team of <strong>MIT and Berklee College of Music students</strong>, that helps medium and large event organizers to reduce traffic
           congestion by offering alternative transportation modes for their attendants. This web service differs from existing car or cab
           sharing services by only focusing on events and increasing trustworthiness by several filters, thus
           presenting an immediate, compelling reason for the event attendees to use the service.

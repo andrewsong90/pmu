@@ -1,10 +1,9 @@
-class EventsController < ApplicationController
-
-  def index
-
+class UsersController < ApplicationController
+  def new
   end
 
   def create
+
     user=User.find_by_email(params[:email])
 
     if !user
@@ -13,17 +12,5 @@ class EventsController < ApplicationController
     end
 
     redirect_to root_url
-  end
-
-  def help
-
-  end
-
-  def team
-
-  end
-
-  def intro
-
   end
 end

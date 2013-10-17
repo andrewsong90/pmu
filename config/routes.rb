@@ -1,8 +1,11 @@
 Pmu::Application.routes.draw do
+  get "users/create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   resources :events
+  post '/users/create' => 'users#create', :as => :create_users
 
   match '/help' => 'events#help'
   match '/team' => 'events#team'
